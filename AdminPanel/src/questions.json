@@ -1,0 +1,112 @@
+{  
+   "Questions":[  
+      {  
+         "Question":"Name the largest freshwater lake in the world?",
+         "Answers":[
+             "Pacific Ocean",
+             "Lake Superior",
+             "Lake Michigan"
+         ],
+         "Answer":"1"
+      },
+      {  
+         "Question":"What is another word for lexicon?",
+         "Answers":[
+             "Dictionary",
+             "Thesaurus",
+             "Dinosaur"
+         ],
+         "Answer":"0"
+      },
+      {  
+         "Question":"What is the world's longest river?",
+         "Answers":[
+             "The Yangtze",
+             "The Nile",
+             "The Amazon River"
+         ],
+         "Answer":"2"
+      },
+      {  
+         "Question":"What is the capital city of Spain?",
+         "Answers":[
+             "Berlin",
+             "Barcelona",
+             "Madrid"
+         ],
+         "Answer":"2"
+      },
+            {  
+         "Question":"What element's periodic symbol is W?",
+         "Answers":[
+             "Tungston",
+             "Helium",
+             "Thallium"
+         ],
+         "Answer":"0"
+      },
+            {  
+         "Question":"Name the world’s biggest island?",
+         "Answers":[
+             "Germany",
+             "Madagascar",
+             "Greenland"
+         ],
+         "Answer":"2"
+      },
+            {  
+         "Question":"What is the diameter of Earth?",
+         "Answers":[
+             "100 miles",
+             "4000 miles",
+             "8000 miles"
+         ],
+         "Answer":"2"
+      },
+            {  
+         "Question":"What kind of weapon is a falchion?",
+         "Answers":[
+             "Axe",
+             "Sword",
+             "Mace"
+         ],
+         "Answer":"1"
+      },
+                  {  
+         "Question":"Which famous ocean liner sank on her first voyage in 1912?",
+         "Answers":[
+             "Titanic",
+             "USS Santa Maria",
+             "USS Arizona"
+         ],
+         "Answer":"0"
+      },
+                  {  
+         "Question":"If you suffer from arachnophobia, which animal are you scared of?",
+         "Answers":[
+             "Dinosaur",
+             "Spider",
+             "Scorpion"
+         ],
+         "Answer":"1"
+      },
+                  {  
+         "Question":"Which country is Prague in?",
+         "Answers":[
+             "Czech Republic",
+             "Austria",
+             "Netherlands"
+         ],
+         "Answer":"0"
+      },
+                  {  
+         "Question":"When was the first atomic bomb dropped?",
+         "Answers":[
+             "1932",
+             "1940",
+             "1945"
+         ],
+         "Answer":"2"
+      }
+   ]
+}

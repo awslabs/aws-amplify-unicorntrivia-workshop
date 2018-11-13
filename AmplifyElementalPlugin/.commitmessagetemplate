@@ -1,0 +1,11 @@
+Beta v0.4.1
+    
+Initial plugin to create the elemental resources to host a livestream
+
+- Added the ability to disable MediaPackage - changes made to lambda function in zip and cloudformation ejs
+- Fixed the wrong url returning from MediaStore
+- Fixed array out of bounds error for get-info if project wasn't pushed or if there were no projects
+- Changed default gopPerSegment to 2 per Shawn's suggestion
+- Removed console.log
+
+Please note this uses lambda functions to deploy the resources as there is no cloudformation support for elemental yet.
