@@ -1,0 +1,5 @@
+node_modules
+src/aws-exports.js
+src/graphql
+.DS_Store
+dist
