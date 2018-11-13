@@ -1,0 +1,15 @@
+{
+    "UserAgent": "aws-amplify/cli",
+    "Version": "0.1.0",
+    "IdentityManager": {
+        "Default": {}
+    },
+    "AppSync": {
+        "Default": {
+            "ApiUrl": "INSERT_GRAPHQL_ENDPOINT",
+            "Region": "us-west-2",
+            "AuthMode": "API_KEY",
+            "ApiKey": "INSERT_API_KEY"
+        }
+    }
+}
