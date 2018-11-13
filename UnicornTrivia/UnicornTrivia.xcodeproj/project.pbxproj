@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F33078AF7B504035E9B61A /* Pods_UnicornTriviaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE3AA2EEFE20B40FCD94DC7 /* Pods_UnicornTriviaUITests.framework */; };
+		08AECD81FA50A7BF9EFEAB06 /* Pods_teststreamUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BCA473EABAC037E9EF066F /* Pods_teststreamUITests.framework */; };
+		796D58C1F41294733FD2094D /* Pods_UnicornTriviaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 906106A73E9D5B6D7937089F /* Pods_UnicornTriviaTests.framework */; };
+		D6168F74FA020A2D0B3C0B11 /* Pods_teststreamTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6234B4C4BFD8F32BCECDBFCD /* Pods_teststreamTests.framework */; };
+		E50ED62F20F7F09D007E803B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50ED62E20F7F09D007E803B /* AppDelegate.swift */; };
+		E50ED63120F7F09D007E803B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50ED63020F7F09D007E803B /* ViewController.swift */; };
+		E50ED63420F7F09D007E803B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50ED63220F7F09D007E803B /* Main.storyboard */; };
+		E50ED63620F7F0A1007E803B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E50ED63520F7F0A1007E803B /* Assets.xcassets */; };
+		E50ED63920F7F0A1007E803B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E50ED63720F7F0A1007E803B /* LaunchScreen.storyboard */; };
+		E50ED64420F7F0A1007E803B /* teststreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50ED64320F7F0A1007E803B /* teststreamTests.swift */; };
+		E50ED64F20F7F0A1007E803B /* teststreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50ED64E20F7F0A1007E803B /* teststreamUITests.swift */; };
+		E50ED66120F7F183007E803B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50ED66020F7F183007E803B /* AudioToolbox.framework */; };
+		E50ED66320F7F191007E803B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50ED66220F7F191007E803B /* NetworkExtension.framework */; };
+		E50ED66520F7F1AD007E803B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50ED66420F7F1AD007E803B /* AVFoundation.framework */; };
+		E50ED66720F7F1B2007E803B /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50ED66620F7F1B2007E803B /* AVKit.framework */; };
+		E50ED66920F7F1BD007E803B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50ED66820F7F1BD007E803B /* CoreMedia.framework */; };
+		E516C6E8210270D500EF5827 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516C6E7210270D500EF5827 /* QuestionView.swift */; };
+		E516C6EA210281A900EF5827 /* AnswerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516C6E9210281A900EF5827 /* AnswerView.swift */; };
+		FCB9A959EFA4D900B57146F5 /* Pods_UnicornTrivia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA5A96B08D22BDC0B884833 /* Pods_UnicornTrivia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E50ED64020F7F0A1007E803B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E50ED62320F7F09D007E803B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E50ED62A20F7F09D007E803B;
+			remoteInfo = teststream;
+		};
+		E50ED64B20F7F0A1007E803B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E50ED62320F7F09D007E803B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E50ED62A20F7F09D007E803B;
+			remoteInfo = teststream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		029CDEB887E2FACCB7BEC717 /* Pods-teststream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teststream.debug.xcconfig"; path = "Pods/Target Support Files/Pods-teststream/Pods-teststream.debug.xcconfig"; sourceTree = "<group>"; };
+		3FDF00C40C16C4BC1B8ACA7B /* Pods-UnicornTrivia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnicornTrivia.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnicornTrivia/Pods-UnicornTrivia.release.xcconfig"; sourceTree = "<group>"; };
+		55BCA473EABAC037E9EF066F /* Pods_teststreamUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teststreamUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6234B4C4BFD8F32BCECDBFCD /* Pods_teststreamTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teststreamTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7626371BAE5DA377C54D5984 /* Pods-teststreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teststreamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-teststreamTests/Pods-teststreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		76C1C08B4F08B3016F1E8603 /* Pods-teststreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teststreamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-teststreamUITests/Pods-teststreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76E41A401573780B1D41D302 /* Pods-UnicornTriviaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnicornTriviaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnicornTriviaUITests/Pods-UnicornTriviaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8FA5A96B08D22BDC0B884833 /* Pods_UnicornTrivia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnicornTrivia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		906106A73E9D5B6D7937089F /* Pods_UnicornTriviaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnicornTriviaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71080F78D85CB6C5AF03076 /* Pods_teststream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_teststream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95F50E27156FD3432E317DB /* Pods-UnicornTriviaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnicornTriviaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnicornTriviaTests/Pods-UnicornTriviaTests.release.xcconfig"; sourceTree = "<group>"; };
+		BAC666EA7844E2E21EAAFC53 /* Pods-UnicornTriviaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnicornTriviaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnicornTriviaTests/Pods-UnicornTriviaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9DFAA886229A09142E12177 /* Pods-teststreamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teststreamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-teststreamUITests/Pods-teststreamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCE3AA2EEFE20B40FCD94DC7 /* Pods_UnicornTriviaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnicornTriviaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD6188CC1DE308CBB8A787DA /* Pods-teststreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teststreamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-teststreamTests/Pods-teststreamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2BC4343EE1F987C96D2F5B6 /* Pods-UnicornTriviaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnicornTriviaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnicornTriviaUITests/Pods-UnicornTriviaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E50ED62B20F7F09D007E803B /* UnicornTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnicornTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50ED62E20F7F09D007E803B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E50ED63020F7F09D007E803B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E50ED63320F7F09D007E803B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E50ED63520F7F0A1007E803B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E50ED63820F7F0A1007E803B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E50ED63A20F7F0A1007E803B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50ED63F20F7F0A1007E803B /* UnicornTriviaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnicornTriviaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50ED64320F7F0A1007E803B /* teststreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teststreamTests.swift; sourceTree = "<group>"; };
+		E50ED64520F7F0A1007E803B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50ED64A20F7F0A1007E803B /* UnicornTriviaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnicornTriviaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E50ED64E20F7F0A1007E803B /* teststreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teststreamUITests.swift; sourceTree = "<group>"; };
+		E50ED65020F7F0A1007E803B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E50ED65E20F7F183007E803B /* UnicornTrivia.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UnicornTrivia.entitlements; sourceTree = "<group>"; };
+		E50ED66020F7F183007E803B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E50ED66220F7F191007E803B /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		E50ED66420F7F1AD007E803B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E50ED66620F7F1B2007E803B /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		E50ED66820F7F1BD007E803B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		E516C6E7210270D500EF5827 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		E516C6E9210281A900EF5827 /* AnswerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerView.swift; sourceTree = "<group>"; };
+		F2018FE5AD3C8C9599ADE84A /* Pods-UnicornTrivia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnicornTrivia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnicornTrivia/Pods-UnicornTrivia.debug.xcconfig"; sourceTree = "<group>"; };
+		FF802F6BA11F3A2E01537AA4 /* Pods-teststream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-teststream.release.xcconfig"; path = "Pods/Target Support Files/Pods-teststream/Pods-teststream.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E50ED62820F7F09D007E803B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50ED66920F7F1BD007E803B /* CoreMedia.framework in Frameworks */,
+				E50ED66720F7F1B2007E803B /* AVKit.framework in Frameworks */,
+				E50ED66520F7F1AD007E803B /* AVFoundation.framework in Frameworks */,
+				E50ED66120F7F183007E803B /* AudioToolbox.framework in Frameworks */,
+				E50ED66320F7F191007E803B /* NetworkExtension.framework in Frameworks */,
+				FCB9A959EFA4D900B57146F5 /* Pods_UnicornTrivia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50ED63C20F7F0A1007E803B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6168F74FA020A2D0B3C0B11 /* Pods_teststreamTests.framework in Frameworks */,
+				796D58C1F41294733FD2094D /* Pods_UnicornTriviaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50ED64720F7F0A1007E803B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AECD81FA50A7BF9EFEAB06 /* Pods_teststreamUITests.framework in Frameworks */,
+				03F33078AF7B504035E9B61A /* Pods_UnicornTriviaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71C5724E89BB37AF29CC22B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				029CDEB887E2FACCB7BEC717 /* Pods-teststream.debug.xcconfig */,
+				FF802F6BA11F3A2E01537AA4 /* Pods-teststream.release.xcconfig */,
+				DD6188CC1DE308CBB8A787DA /* Pods-teststreamTests.debug.xcconfig */,
+				7626371BAE5DA377C54D5984 /* Pods-teststreamTests.release.xcconfig */,
+				76C1C08B4F08B3016F1E8603 /* Pods-teststreamUITests.debug.xcconfig */,
+				C9DFAA886229A09142E12177 /* Pods-teststreamUITests.release.xcconfig */,
+				F2018FE5AD3C8C9599ADE84A /* Pods-UnicornTrivia.debug.xcconfig */,
+				3FDF00C40C16C4BC1B8ACA7B /* Pods-UnicornTrivia.release.xcconfig */,
+				BAC666EA7844E2E21EAAFC53 /* Pods-UnicornTriviaTests.debug.xcconfig */,
+				B95F50E27156FD3432E317DB /* Pods-UnicornTriviaTests.release.xcconfig */,
+				E2BC4343EE1F987C96D2F5B6 /* Pods-UnicornTriviaUITests.debug.xcconfig */,
+				76E41A401573780B1D41D302 /* Pods-UnicornTriviaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E50ED62220F7F09D007E803B = {
+			isa = PBXGroup;
+			children = (
+				E50ED62D20F7F09D007E803B /* UnicornTrivia */,
+				E50ED64220F7F0A1007E803B /* UnicornTriviaTests */,
+				E50ED64D20F7F0A1007E803B /* UnicornTriviaUITests */,
+				E50ED62C20F7F09D007E803B /* Products */,
+				E50ED65F20F7F183007E803B /* Frameworks */,
+				71C5724E89BB37AF29CC22B0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E50ED62C20F7F09D007E803B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E50ED62B20F7F09D007E803B /* UnicornTrivia.app */,
+				E50ED63F20F7F0A1007E803B /* UnicornTriviaTests.xctest */,
+				E50ED64A20F7F0A1007E803B /* UnicornTriviaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E50ED62D20F7F09D007E803B /* UnicornTrivia */ = {
+			isa = PBXGroup;
+			children = (
+				E50ED65E20F7F183007E803B /* UnicornTrivia.entitlements */,
+				E50ED62E20F7F09D007E803B /* AppDelegate.swift */,
+				E50ED63020F7F09D007E803B /* ViewController.swift */,
+				E516C6E9210281A900EF5827 /* AnswerView.swift */,
+				E516C6E7210270D500EF5827 /* QuestionView.swift */,
+				E50ED63220F7F09D007E803B /* Main.storyboard */,
+				E50ED63520F7F0A1007E803B /* Assets.xcassets */,
+				E50ED63720F7F0A1007E803B /* LaunchScreen.storyboard */,
+				E50ED63A20F7F0A1007E803B /* Info.plist */,
+			);
+			path = UnicornTrivia;
+			sourceTree = "<group>";
+		};
+		E50ED64220F7F0A1007E803B /* UnicornTriviaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E50ED64320F7F0A1007E803B /* teststreamTests.swift */,
+				E50ED64520F7F0A1007E803B /* Info.plist */,
+			);
+			path = UnicornTriviaTests;
+			sourceTree = "<group>";
+		};
+		E50ED64D20F7F0A1007E803B /* UnicornTriviaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E50ED64E20F7F0A1007E803B /* teststreamUITests.swift */,
+				E50ED65020F7F0A1007E803B /* Info.plist */,
+			);
+			path = UnicornTriviaUITests;
+			sourceTree = "<group>";
+		};
+		E50ED65F20F7F183007E803B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E50ED66820F7F1BD007E803B /* CoreMedia.framework */,
+				E50ED66620F7F1B2007E803B /* AVKit.framework */,
+				E50ED66420F7F1AD007E803B /* AVFoundation.framework */,
+				E50ED66220F7F191007E803B /* NetworkExtension.framework */,
+				E50ED66020F7F183007E803B /* AudioToolbox.framework */,
+				B71080F78D85CB6C5AF03076 /* Pods_teststream.framework */,
+				6234B4C4BFD8F32BCECDBFCD /* Pods_teststreamTests.framework */,
+				55BCA473EABAC037E9EF066F /* Pods_teststreamUITests.framework */,
+				8FA5A96B08D22BDC0B884833 /* Pods_UnicornTrivia.framework */,
+				906106A73E9D5B6D7937089F /* Pods_UnicornTriviaTests.framework */,
+				DCE3AA2EEFE20B40FCD94DC7 /* Pods_UnicornTriviaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E50ED62A20F7F09D007E803B /* UnicornTrivia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50ED65320F7F0A1007E803B /* Build configuration list for PBXNativeTarget "UnicornTrivia" */;
+			buildPhases = (
+				2231B6891EFE4A5F37A58D59 /* [CP] Check Pods Manifest.lock */,
+				E52D012C210A525F00EC99F6 /* Generate Apollo GraphQL API */,
+				E50ED62720F7F09D007E803B /* Sources */,
+				E50ED62820F7F09D007E803B /* Frameworks */,
+				E50ED62920F7F09D007E803B /* Resources */,
+				113C7778A4F37341902D0465 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnicornTrivia;
+			productName = teststream;
+			productReference = E50ED62B20F7F09D007E803B /* UnicornTrivia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E50ED63E20F7F0A1007E803B /* UnicornTriviaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50ED65620F7F0A1007E803B /* Build configuration list for PBXNativeTarget "UnicornTriviaTests" */;
+			buildPhases = (
+				B2508C50180235298B288653 /* [CP] Check Pods Manifest.lock */,
+				E50ED63B20F7F0A1007E803B /* Sources */,
+				E50ED63C20F7F0A1007E803B /* Frameworks */,
+				E50ED63D20F7F0A1007E803B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E50ED64120F7F0A1007E803B /* PBXTargetDependency */,
+			);
+			name = UnicornTriviaTests;
+			productName = teststreamTests;
+			productReference = E50ED63F20F7F0A1007E803B /* UnicornTriviaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E50ED64920F7F0A1007E803B /* UnicornTriviaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50ED65920F7F0A1007E803B /* Build configuration list for PBXNativeTarget "UnicornTriviaUITests" */;
+			buildPhases = (
+				80E802847702762B2114F147 /* [CP] Check Pods Manifest.lock */,
+				E50ED64620F7F0A1007E803B /* Sources */,
+				E50ED64720F7F0A1007E803B /* Frameworks */,
+				E50ED64820F7F0A1007E803B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E50ED64C20F7F0A1007E803B /* PBXTargetDependency */,
+			);
+			name = UnicornTriviaUITests;
+			productName = teststreamUITests;
+			productReference = E50ED64A20F7F0A1007E803B /* UnicornTriviaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E50ED62320F7F09D007E803B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Patzer, Sam";
+				TargetAttributes = {
+					E50ED62A20F7F09D007E803B = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					E50ED63E20F7F0A1007E803B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E50ED62A20F7F09D007E803B;
+					};
+					E50ED64920F7F0A1007E803B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = E50ED62A20F7F09D007E803B;
+					};
+				};
+			};
+			buildConfigurationList = E50ED62620F7F09D007E803B /* Build configuration list for PBXProject "UnicornTrivia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E50ED62220F7F09D007E803B;
+			productRefGroup = E50ED62C20F7F09D007E803B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E50ED62A20F7F09D007E803B /* UnicornTrivia */,
+				E50ED63E20F7F0A1007E803B /* UnicornTriviaTests */,
+				E50ED64920F7F0A1007E803B /* UnicornTriviaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E50ED62920F7F09D007E803B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50ED63920F7F0A1007E803B /* LaunchScreen.storyboard in Resources */,
+				E50ED63620F7F0A1007E803B /* Assets.xcassets in Resources */,
+				E50ED63420F7F09D007E803B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50ED63D20F7F0A1007E803B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50ED64820F7F0A1007E803B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		113C7778A4F37341902D0465 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-UnicornTrivia/Pods-UnicornTrivia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAppSync/AWSAppSync.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAppSync.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UnicornTrivia/Pods-UnicornTrivia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2231B6891EFE4A5F37A58D59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnicornTrivia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80E802847702762B2114F147 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnicornTriviaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2508C50180235298B288653 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnicornTriviaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E52D012C210A525F00EC99F6 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E50ED62720F7F09D007E803B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E516C6E8210270D500EF5827 /* QuestionView.swift in Sources */,
+				E516C6EA210281A900EF5827 /* AnswerView.swift in Sources */,
+				E50ED63120F7F09D007E803B /* ViewController.swift in Sources */,
+				E50ED62F20F7F09D007E803B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50ED63B20F7F0A1007E803B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50ED64420F7F0A1007E803B /* teststreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50ED64620F7F0A1007E803B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E50ED64F20F7F0A1007E803B /* teststreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E50ED64120F7F0A1007E803B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E50ED62A20F7F09D007E803B /* UnicornTrivia */;
+			targetProxy = E50ED64020F7F0A1007E803B /* PBXContainerItemProxy */;
+		};
+		E50ED64C20F7F0A1007E803B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E50ED62A20F7F09D007E803B /* UnicornTrivia */;
+			targetProxy = E50ED64B20F7F0A1007E803B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E50ED63220F7F09D007E803B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E50ED63320F7F09D007E803B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E50ED63720F7F0A1007E803B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E50ED63820F7F0A1007E803B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E50ED65120F7F0A1007E803B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E50ED65220F7F0A1007E803B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E50ED65420F7F0A1007E803B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2018FE5AD3C8C9599ADE84A /* Pods-UnicornTrivia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon";
+				CODE_SIGN_ENTITLEMENTS = UnicornTrivia/UnicornTrivia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UnicornTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yourname.UnicornTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E50ED65520F7F0A1007E803B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FDF00C40C16C4BC1B8ACA7B /* Pods-UnicornTrivia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon";
+				CODE_SIGN_ENTITLEMENTS = UnicornTrivia/UnicornTrivia.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = UnicornTrivia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yourname.UnicornTrivia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E50ED65720F7F0A1007E803B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC666EA7844E2E21EAAFC53 /* Pods-UnicornTriviaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMP8A5BDX8;
+				INFOPLIST_FILE = UnicornTriviaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wizage.UnicornTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnicornTrivia.app/UnicornTrivia";
+			};
+			name = Debug;
+		};
+		E50ED65820F7F0A1007E803B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B95F50E27156FD3432E317DB /* Pods-UnicornTriviaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMP8A5BDX8;
+				INFOPLIST_FILE = UnicornTriviaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wizage.UnicornTriviaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnicornTrivia.app/UnicornTrivia";
+			};
+			name = Release;
+		};
+		E50ED65A20F7F0A1007E803B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2BC4343EE1F987C96D2F5B6 /* Pods-UnicornTriviaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMP8A5BDX8;
+				INFOPLIST_FILE = UnicornTriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wizage.UnicornTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnicornTrivia;
+			};
+			name = Debug;
+		};
+		E50ED65B20F7F0A1007E803B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E41A401573780B1D41D302 /* Pods-UnicornTriviaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AMP8A5BDX8;
+				INFOPLIST_FILE = UnicornTriviaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wizage.UnicornTriviaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnicornTrivia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E50ED62620F7F09D007E803B /* Build configuration list for PBXProject "UnicornTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50ED65120F7F0A1007E803B /* Debug */,
+				E50ED65220F7F0A1007E803B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50ED65320F7F0A1007E803B /* Build configuration list for PBXNativeTarget "UnicornTrivia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50ED65420F7F0A1007E803B /* Debug */,
+				E50ED65520F7F0A1007E803B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50ED65620F7F0A1007E803B /* Build configuration list for PBXNativeTarget "UnicornTriviaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50ED65720F7F0A1007E803B /* Debug */,
+				E50ED65820F7F0A1007E803B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50ED65920F7F0A1007E803B /* Build configuration list for PBXNativeTarget "UnicornTriviaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E50ED65A20F7F0A1007E803B /* Debug */,
+				E50ED65B20F7F0A1007E803B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E50ED62320F7F09D007E803B /* Project object */;
+}
