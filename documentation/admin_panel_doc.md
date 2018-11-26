@@ -49,7 +49,7 @@ We will also be using the [AWS Amplify](https://aws-amplify.github.io/) library 
     ```
 1. Under all the imports add the following line of code. This statement retrieves the configuration information from the aws-exports.js file and it will be updated as you update your resources using Amplify.
     ```javascript 
-    Amplify.configure(aws_exports);`
+    Amplify.configure(aws_exports);
     ```
 1. Add this code to LOCATION1, this creates a question from the table data in the format of input:
     ```javascript
