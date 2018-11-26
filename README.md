@@ -42,6 +42,8 @@ Before doing this workshop please install these required programs
     This code block setups up the URL that will be iOS native player called AVPlayer. AVPlayer plays HLS streams natively. To see how the AVPlayer is configured checkout out the function `addVideoPlayer` as it setups up the frame of the video player, sets the aspect ratio, and removes the controls from video.
 1. Go head and run your project and observe you now have a running mobile app with your live-stream all setup.
 
+If you experience performance issues or dropped frames in OBS (Remember there are 100+ other streamers in the room!), you can use paste this URL instead of your own as a failback stream: https://jyxvhwgs4v47q5.data.mediastore.us-west-2.amazonaws.com/p/index.m3u8 
+
 ### Step Three: Show Questions to the player
 1. First we will need to setup our client to point to the correct GraphQL endpoint. So navigate to UnicornTrivia/AppDelegate.swift in Xcode.
 1. At the top of the file we first need to import AppSync's SDK so copy and paste this line right under `import UIKit`
