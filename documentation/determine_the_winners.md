@@ -1,10 +1,12 @@
 ## Determine the Winner(s)
 
-Now that you have a live stream, an admin panel to push questions, and clients to submit their answer, the last step is to determine who has won. Navigate to the leaderboard inside primary workshop `/aws-amplify-unicorntrivia-workshop/AdminPanel/leaderboard`
+Now that you have a live stream, an admin panel to push questions, and clients to submit their answer, the last step is to determine who has won. Navigate to the leaderboard inside primary workshop admin panel directory: `/aws-amplify-unicorntrivia-workshop/AdminPanel/leaderboard`
 
 Next, open `index.js` and add the Dyanamo answer table name. Access this via the console if you haven't already during the Appsync resolver configuration. It should look something like: `Answers-SOMERANDOMTEXT`
 
-Run `npm install`
+Open a terminal window, and cd into the leaderboard directory.
+
+Then run `npm install`
 
 Run `npm start` and see the winner(s) listed at the top!
 
