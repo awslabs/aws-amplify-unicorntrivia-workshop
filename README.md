@@ -96,6 +96,8 @@ Navigate to `./src/components/App/Video/component.js`. The `component.js` file h
 	);	    
 	```
 
+If you experience performance issues or dropped frames in OBS (Remember there are 100+ other streamers in the room!), you can use paste this URL instead of your own as a failback stream: https://jyxvhwgs4v47q5.data.mediastore.us-west-2.amazonaws.com/p/index.m3u8 
+
 ## Step 3: Subscribing to the GraphQL API backend
 In this section we will be subscribing our client to the back end GraphQL API hosted in AWS AppSync.
 
