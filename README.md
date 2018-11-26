@@ -6,8 +6,6 @@ Before we dive into building the React Web Client, please download a copy of thi
 
 Once you successfully download a copy and unzip its contents, open up a terminal in that folder to follow along with the instructions below.
 
-If you do not already have Node and NPM installed, you can install Node by visiting the official Node.js download page [here](https://nodejs.org/en/download) and selecting the installer for your operating system.
-
 # React Web Walkthrough
 
 ## Step 1: Preparing the project
