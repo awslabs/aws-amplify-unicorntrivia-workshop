@@ -8,4 +8,4 @@ This SDK does the heavy lifting for the apps including: authentication, graphql 
 
 [iOS](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/tree/unicorn-trivia-ios-workshop) - Based on Swift, requires XCode and Cocoapods
 
-[Android](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/tree/unicorn-trivia-react-native-workshop) - Based on React Native, requires Android Studio **Alpha: You may encounter bugs. Proceed if you are a skill react native developer**
+[Android](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/tree/unicorn-trivia-react-native-workshop) - Based on React Native, requires Android Studio **Alpha: You may encounter bugs. Proceed if you are a skilled react native developer**
