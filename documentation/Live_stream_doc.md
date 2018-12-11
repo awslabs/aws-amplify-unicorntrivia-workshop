@@ -9,7 +9,7 @@ For video files, S3 Static Hosting is a popular way to host video. In a live str
 Now you need to deploy MediaLive and MediaStore. Sure, you could use the AWS Console or even AWS CloudFormation, but you're an app developer in a hurry and not interested in writing YAML or JSON. You plan to use AWS Amplify CLI/SDK for the mobile app, maybe there's a way to manage your live streaming infrastructure with the same tools? Luckily, you met an Solutions Architect at the AWS SFO Summit who shared with you a [AWS Amplify plugin](https://aws-amplify.github.io/docs/cli/plugins) that does just this very thing. Let's get building!
 
 
-1. First, open a terminal and navigate to the AdminPanel directory.
+1. First, open a terminal and navigate to the AdminPanel directory inside the unzipped project files.
 1. Run `amplify init`. This command creates new AWS backend resources (in this case a single S3 bucket to host your cloudformation templates) and pull the AWS service configurations into the app!
 1. Follow the prompts as shown in the below Image.
     1. If you do not have the AWS CLI installed and configured, amplify will direct you to create a default profile. 
