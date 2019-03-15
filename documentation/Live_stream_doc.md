@@ -15,14 +15,14 @@ Now you need to deploy MediaLive and MediaStore. Sure, you could use the AWS Con
     1. If you do not have the AWS CLI installed and configured, amplify will direct you to create a default profile. 
     1. Note that because of the services leveraged, your AWS profile **MUST USE** us-west-2, us-east-1, eu-west-1, eu-central-1, ap-northeast-1, or ap-southeast-2.
     ![init](../.images/amplify_init.png)
-1. Now, add the amplify livestream module to the project using `amplify livestream add`
+1. Now, add the amplify livestream module to the project using `amplify video add`
 1. Again, follow the prompts as shown in the image below
      ![livestream](../.images/amplify_livestream.png) 
 1. Once the prompts complete, make sure the module was added by checking `amplify status`
     ![status](../.images/amplify_status.png)
 1. Now it is time to create our resources! Now run `amplify push` to create the backend resources for the livestream component! It will take a few minutes to stage and create the resources in your AWS environment. While that runs, let's take a brief look at what was just created! The Amplify CLI plugin created a MediaLive Channel which will process and deliver video segments to a MediaStore container (also created by the plugin). We'll serve the stream from MediaStore, but note that it is recommended to use a Content Delivery Network (CDN) like Amazon CloudFront. To begin processing video, you now need to send a source to the MediaLive endpoint.
 ![Streaming Architecture](../.images/streaming_architecture.png)
-1. In order to retrieve the MediaLive endpoint that you just created, run the command `amplify livestream get-info` in the console.
+1. In order to retrieve the MediaLive endpoint that you just created, run the command `amplify video get-info` in the console.
 1. Note down the  **MediaLive Primary Ingest URL, MediaLive Primary Stream Key, and the MediaStore HLS Egress Url** 
     ![Streaming Architecture](../.images/amplify_get_status.png)
 1. Now Launch OBS. If you don't have it installed, refer to the "Configuring your computer" section for the download link.
