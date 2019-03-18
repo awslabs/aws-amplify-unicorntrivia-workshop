@@ -11,7 +11,7 @@ Now you need to deploy MediaLive and MediaStore. Sure, you could use the AWS Con
 
 1. First, open a terminal and navigate to the AdminPanel directory.
 1. Run `amplify init`. This command creates new AWS backend resources (in this case a single S3 bucket to host your cloudformation templates) and pull the AWS service configurations into the app!
-1. Follow the prompts as shown in the below Image.
+1. Follow the prompts as shown in the below Image. Remember, even if you are implementing the ios or android version of the application, you MUST choose javascript here since the admin panel is a web app that makes calls to the graphql backend and is seperate from the client. 
     1. If you do not have the AWS CLI installed and configured, amplify will direct you to create a default profile. 
     1. Note that because of the services leveraged, your AWS profile **MUST USE** us-west-2, us-east-1, eu-west-1, eu-central-1, ap-northeast-1, or ap-southeast-2.
     ![init](../.images/amplify_init.png)
