@@ -24,7 +24,7 @@ Before doing this workshop please install these required programs
     1. If you forgot to save your apiID from the previous steps, you can always find it in the AWS AppSync console. To do so, navigate to the AppSync dashboard from within your AWS account and click on the name of the API you previously created.
         ![AppSyncConsole](.images/AppsyncConsole.png)
 
-    1.In the "Integrate with your app" section, you should see a command for how to add CodeGen to your existing project, copy and paste this command into the terminal.
+    1. In the "Integrate with your app" section, you should see a command for how to add CodeGen to your existing project, copy and paste this command into the terminal.
         ![getAPIid](.images/getAPIID.png)
         
  1. Walkthrough the steps and use all the default parameters. It should looke something like this:
