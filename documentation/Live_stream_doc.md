@@ -26,8 +26,9 @@ Now you need to deploy MediaLive and MediaStore. Sure, you could use the AWS Con
 1. Note down the  **MediaStore HLS Egress Url** as you will need it later for your client.
     ![Streaming Architecture](../.images/amplify_get_status.png)
 1. If you haven't already done so, please install OBS at this time by refering to the "Configuring your computer" section for the download link.
-1. To setup OBS to start streaming to your newly created endpoint you can run the command `amplify video setup-obs`. This command will setup a OBS profile which is preconfigured. If you don't see your profile listed, try closing the OBS application and re-opening it and check the profile tab again.
-1. Now Launch OBS and navigate to the profile menu and select your Project Name. This will switch your settings to a preconfigured profile ready to stream to the livestream.
+1. To setup OBS to start streaming to your newly created endpoint you can run the command `amplify video setup-obs`. This command will setup a OBS profile which is preconfigured. 
+1. Now Launch OBS and navigate to the profile menu and select your Project Name. This will switch your settings to a preconfigured profile ready to stream to the livestream. If you don't see your profile listed, try closing the OBS application and re-opening it and check the profile tab again.
+![OBS VideoCapture](../.images/OBS_Profile.png)
 1. The last step is adding an audio and video source. Under Sources on the bottom left hand side, select the **+** icon to add a source.
 1. Choose Video Capture Device. Click the "Create New" radio button and provide a unique name and select ok.
 ![OBS VideoCapture](../.images/obs_video_capture.png)
