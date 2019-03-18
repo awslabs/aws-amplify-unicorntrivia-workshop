@@ -104,13 +104,13 @@ In this section we will be subscribing our client to the back end GraphQL API ho
 1. Now you need to initialize your client as an Amplify project. Run `amplify init` in your client folder’s root directory and follow the prompts. Remember to choose the correct response for the prompt “Choose the type of app that you're building” based on the client that you are implementing.
 
 1. Next you will need to run `amplify add codegen --apiId <insert app id>`.  This will generate code for your app unique to the project. Follow the prompts below.
-    ![Amplify Configure Codegen](.images/AmplifyCodegenConfig.png)
+    ![Amplify Configure Codegen](assets/AmplifyCodegenConfig.png)
 
     1. If you forgot to save your apiID from the previous steps, you can always find it in the AWS AppSync console. To do so, navigate to the AppSync dashboard from within your AWS account and click on the name of the API you previously created.
-        ![AppSyncConsole](.images/AppsyncConsole.png)
+        ![AppSyncConsole](assets/AppsyncConsole.png)
 
     1. In the "Integrate with your app" section, you should see a command for how to add CodeGen to your existing project, copy and paste this command into the terminal.
-        ![getAPIid](.images/getAPIID.png)
+        ![getAPIid](assets/getAPIID.png)
 
  1. When Codegen finishes you should have a `API.swift` file and a `awsconfiguration.json` file in your directory.
 
