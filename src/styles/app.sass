@@ -10,6 +10,43 @@ body
 	padding: 0
 	font-family: Helvetica
 
+@mixin animation($animate...)
+    $max: length($animate)
+    $animations: ''
+
+    @for $i from 1 through $max 
+        $animations: #{$animations + nth($animate, $i)}
+
+        @if $i < $max 
+            $animations: #{$animations + ", "}
+        
+    
+    -webkit-animation: $animations
+    -moz-animation:    $animations
+    -o-animation:      $animations
+    animation:         $animations
+
+@mixin keyframe($animationName) 
+    @-webkit-keyframes #{$animationName} 
+        @content
+    @-moz-keyframes #{$animationName} 
+        @content
+    @-o-keyframes #{$animationName} 
+        @content
+    
+    @keyframes #{$animationName} 
+        @content
+    
+
+@include keyframe(fadeout)
+	0%
+		opacity: 1
+	100%
+		opacity: 0
+
+.modal-container.show
+	opacity: 1
+
 #app
 	height: 100%
 
@@ -27,13 +64,15 @@ body
 
 .modal-container
 	position: absolute
-	bottom: -320px
+	bottom: 0px
 	height: 240px
 	width: 260px
 	max-width: 320px
 	background: white
 	margin: 30px
+	opacity: 0
 	border-radius: 15px
+	transition: 0.5s;
 
 .video-container
 	position: relative

@@ -160,7 +160,7 @@ class Game extends Component {
 			return(
 				<div className="game-container">
 					<Video />
-					<Modal visible={this.state.modalVisible} backgroundColor={this.state.modalBackground}>
+					<Modal class={this.state.modalVisible ? "show" : ""} backgroundColor={this.state.modalBackground}>
 						{ this.game() }
 					</Modal>
 				</div>
