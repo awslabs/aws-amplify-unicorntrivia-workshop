@@ -16,15 +16,21 @@ Before doing this workshop please install these required programs
 1. Click `UnicornTrivia` and change the bundle identifier to `yourname.unicorntriva` and make sure that the Team section is set to None. Should look something like this:
     ![Xcode Project Configure](.images/XcodeConfigureProject.png)
 1. Change your simulator from iPhone XR to iPhone 8 - **This is important for older computers**
-1. Copy your `amplify` folder from your `AdminPanel` folder that you created in our last section and place a copy into the main `unicorn-trivia-ios-workshop` directory.
-1. Then run `amplify configure project`. This will allow Amplify to generate iOS code unique to your API endpoint.
-    1. Keep all your values the same except change your type of app you are building from `javascript` to `ios`. 
-    1. When done it should looks something like this: 
-    ![Amplify Configure Project](.images/AmplifyConfigureProject.png)
-1. Once you change the project configurations run `amplify codegen add`.
-    1. Walkthrough the steps and use all the default parameters. It should looke something like this:
+
+1. Now you need to initialize our client as an Amplify project. Run `amplify init` in your client folder’s root directory and follow the prompts. Remember to choose the correct response for the prompt “Choose the type of app that you're building” based on the client that you are implementing.
+
+1. Next you will need to run `amplify add codegen --apiId <insert app id>`.  This will generate code for your app unique to the project.
+
+    1. If you forgot to save your apiID from the previous steps, you can always find it in the AWS AppSync console. To do so, navigate to the AppSync dashboard from within your AWS account and click on the name of the API you previously created.
+        ![AppSyncConsole](.images/AppsyncConsole.png)
+
+    1.In the "Integrate with your app" section, you should see a command for how to add CodeGen to your existing project, copy and paste this command into the terminal.
+        ![getAPIid](.images/getAPIID.png)
+        
+ 1. Walkthrough the steps and use all the default parameters. It should looke something like this:
     ![Amplify Configure Codegen](.images/AmplifyCodegenConfig.png)
-    1. When Codegen finishes you should have a `API.swift` file and a `awsconfiguration.json` file in your directory.
+ 1. When Codegen finishes you should have a `API.swift` file and a `awsconfiguration.json` file in your directory.
+    
 1. Back in Xcode, Navigate to `File->Add files to "Unicorn Trivia"`. Then select the `API.swift` and `awsconfiguration.json` files to add to your project and make sure the radio `Copy items if needed` is selected. It should looks something like this:
     ![CopyFilesIn](.images/CopyFilesIn.png)
 1. Now your project has been configured.
