@@ -102,6 +102,7 @@ If you experience performance issues or dropped frames in OBS (Remember there ar
 In this section we will be subscribing our client to the back end GraphQL API hosted in AWS AppSync.
 
 1. Now you need to initialize your client as an Amplify project. Run `amplify init` in your client folder’s root directory and follow the prompts. Remember to choose the correct response for the prompt “Choose the type of app that you're building” based on the client that you are implementing.
+    ![Amplify init_web](assets/Amplify_init_web.png)
 
 1. Next you will need to run `amplify add codegen --apiId <insert app id>`.  This will generate code for your app unique to the project. Follow the prompts below.
     ![Amplify Configure Codegen](assets/AmplifyCodegenConfig.png)
