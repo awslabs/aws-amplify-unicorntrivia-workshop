@@ -41,7 +41,7 @@ In this section we will be subscribing our client to the back end GraphQL API ho
     ![Amplify Configure Codegen](.images/Amplify_init_web.png)
 
 1. Next you will need to run `amplify add codegen --apiId <insert app id>`.  This will generate code for your app unique to the project. Follow the prompts below.
-    ![Amplify Configure Codegen](.images/AmplifyCodegenConfig.png)
+    ![Amplify Configure Codegen](.images/AmplifyCodegenConfig2.png)
 
     1. If you forgot to save your apiID from the previous steps, you can always find it in the AWS AppSync console. To do so, navigate to the AppSync dashboard from within your AWS account and click on the name of the API you previously created.
         ![AppSyncConsole](.images/AppsyncConsole.png)
