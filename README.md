@@ -17,7 +17,8 @@ Before doing this workshop please install these required programs
     ![Xcode Project Configure](.images/XcodeConfigureProject.png)
 1. Change your simulator from iPhone XR to iPhone 8 - **This is important for older computers**
 
-1. Now you need to initialize our client as an Amplify project. Run `amplify init` in your client folder’s root directory and follow the prompts. Remember to choose the correct response for the prompt “Choose the type of app that you're building” based on the client that you are implementing.
+1. Now you need to initialize our client as an Amplify project. Run `amplify init` in your client folder’s root directory and follow the prompts as shown below.
+    ![Amplify init](.images/Amplify_init_ios.png)
 
 1. Next you will need to run `amplify add codegen --apiId <insert app id>`.  This will generate code for your app unique to the project. Follow the prompts below.
     ![Amplify Configure Codegen](.images/AmplifyCodegenConfig.png)
