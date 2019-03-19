@@ -49,7 +49,7 @@ In this section we will be subscribing our client to the back end GraphQL API ho
     1. In the "Integrate with your app" section, you should see a command for how to add CodeGen to your existing project, copy and paste this command into the terminal.
         ![getAPIid](.images/getAPIID.png)
 
- 1. When Codegen finishes you should have a `API.swift` file and a `awsconfiguration.json` file in your directory.
+ 1. When Codegen finishes you should have a `Graphql` folder and a `awsconfiguration.json` file in your directory.
     
 
 
