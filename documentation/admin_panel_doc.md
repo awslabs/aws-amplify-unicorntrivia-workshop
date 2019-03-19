@@ -78,7 +78,7 @@ We will also be using the [AWS Amplify](https://aws-amplify.github.io/) library 
     ```
 1. Run `npm start` and observe we are now pushing questions by opening the javascript debug console in your browser and clicking Post Question or Post Answer which is how we'll send trivia to our end-users.
 
-1. To view subscriptions you can add this code block beneath the import and Amplify.configure(aws_exports); statement.
+1. To view subscriptions you can add this code block beneath the import and Amplify.configure(aws_exports) statements.
     ```javascript
     const subscription = API.graphql(
         graphqlOperation(onCreateQuestion)
