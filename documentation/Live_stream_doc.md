@@ -23,7 +23,7 @@ Now you need to deploy MediaLive and MediaStore. Sure, you could use the AWS Con
 1. Now it is time to create our resources! Now run `amplify push` to create the backend resources for the video component! It will take a few minutes to stage and create the resources in your AWS environment. While that runs, let's take a brief look at what was just created! The Amplify CLI plugin created a MediaLive Channel which will process and deliver video segments to a MediaStore container (also created by the plugin). We'll serve the stream from MediaStore, but note that it is recommended to use a Content Delivery Network (CDN) like Amazon CloudFront. To begin processing video, you now need to send a source to the MediaLive endpoint.
 ![Streaming Architecture](../.images/streaming_architecture.png)
 1. In order to retrieve the MediaLive endpoint that you just created, run the command `amplify video get-info`.
-1. Note down the  **MediaStore HLS Egress Url** as you will need it later for your client.
+1. Note down the  **MediaStore HLS Output Url** as you will need it later for your client.
     ![Streaming Architecture](../.images/amplify_get_status.png)
 1. If you haven't already done so, please install OBS at this time by refering to the "Configuring your computer" section for the download link.
 1. To setup OBS to start streaming to your newly created endpoint you can run the command `amplify video setup-obs`. This command will setup a OBS profile which is preconfigured. 
