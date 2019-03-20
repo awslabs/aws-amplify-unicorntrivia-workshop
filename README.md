@@ -195,5 +195,12 @@ You should now be able to observe our answers being saved, but only one answer i
 1. Run the app again and now you should observe the answers are being correctly appended to the array.
 
 
-Now that you have finished implementing the basic app, if have extra time feel free to implement some extra features such as determining winners and customizing questions and answers. [Click here](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/determine_the_winners.md) to move onward or else continue to the clean up section [here](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/client_doc.md)!
+# Wrap up
 
+Congratulations! You've successfully implemented a prototype of UnicornTrivia and secured one. billion. dollars. in seed funding. Continue to the clean up section [here](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/wrap_up_doc.md)!
+
+# Extra Credit
+
+Now that you have finished implementing the basic app, if have extra time feel free to try these extra features
+* [Determine Winners](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/determine_the_winners.md) 
+* [Add customized questions](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/customizing_questions_doc.md) 
