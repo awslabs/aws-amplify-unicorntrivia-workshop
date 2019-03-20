@@ -276,13 +276,17 @@ This code is very similiar to what we did in our AdminPanel code. We just create
 
 Now that we have every section of the application implemented, it's time to run the app in our emulator.
 
-1. From here run the command `npm start` to launch the application in the browser. The browser window should automatically open up. If not, navigate to `http://localhost:3000` to view the application.
+1. From here run the command `npm start` to launch the application in the browser. The browser window should automatically open up. If not, navigate to the localhost port displayed in the terminal to view the application.
 1. From your AdminPanel, you can play along by posting a question, answering the question from the app, and then posting the answer to show you whether you got it correct.
-1. If you closed the terminal window running the admin panel no problem! Just open a new terminal window and navigate to the AdminPanel folder and run `npm start`. Your default browser should now open up the admin panel on localhost:3000!
+1. If you closed the terminal window running the admin panel no problem! Just open a new terminal window and navigate to the AdminPanel folder and run `npm start`. Your default browser should now open up the admin panel on localhost!
+
+![fin](.images/UTFinish.png)
 
 # Wrap up
 
 Congratulations! You've successfully implemented a prototype of UnicornTrivia and secured one. billion. dollars. in seed funding. Continue to the clean up section [here](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/wrap_up_doc.md)!
+
+
 
 # Extra Credit
 
