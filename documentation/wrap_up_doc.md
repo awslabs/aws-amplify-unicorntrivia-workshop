@@ -6,4 +6,4 @@ It's absolutely critical to remove the backend resources when you have completed
 
 Once the command completes, check the process to ensure it has completed successfully. Navigate to your default region in the AWS Console and confirm that there are no MediaLive channels running or configured. You can also validate that there are no remaining stacks in AWS CloudFormation.
 
-You have now completed the UnicornTrivia workshop. If you enjoyed building this project, click [here](https://ctt.ac/a33ay) to tweet about your successful completion! 
+You have now completed the UnicornTrivia workshop. If you enjoyed building this project,[tweet about your successful completion](https://ctt.ac/a33ay) or star this github repo to show your support!
