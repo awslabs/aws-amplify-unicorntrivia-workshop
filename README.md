@@ -37,7 +37,7 @@ Before doing this workshop please install these required programs
 1. **Note:** When compiling the app you will see warnings. This is normal for this project.
 
 ### Step Two: Displaying your HLS Stream
-1. If you lost your egress url from the `amplify livestream` setup then you can run `amplify livestream get-info` again to get the MediaStore url. It should look something like this: `url`
+1. If you lost your egress url from the `amplify video` setup then you can run `amplify video get-info` again to get the MediaStore url. It should look something like this: `url`
 1. Navigate to UnicornTrivia/ViewController.swift in Xcode. Then, insert this code below in the `func playVideoEmbedded()` area and replace the `INSERT_URL_HERE` with your egress url:
     ```swift
     guard let url = URL(string: "INSERT_URL_HERE") else {
