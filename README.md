@@ -21,18 +21,16 @@ Navigate to `./src/components/Video/component.js`. The `component.js` file house
 
 We will now connect the video player to our live streaming backend using the Mediastore egress URL generated in the previous step. 
 
-Find the `constructor` and replace the value for the `src` key in `this.state` variable to your Mediastore egress URL. If you lost your MediaStore egress url from the amplify livestream setup, you can run `amplify livestream get-info` from the AdminPanel folder to get the MediaStore url. The url should be after the label `MediaStore Output Url:`
+Find the `constructor` and replace the <YOUR_MEDIASTORE_URL_HERE> value for the `src` key variable to your Mediastore egress URL. If you lost your MediaStore egress url from the amplify livestream setup, you can run `amplify livestream get-info` from the AdminPanel folder to get the MediaStore url.
 
 ```javascript         
 constructor(props) {
 	super(props);
 	this.state = {
-		src: '#YOUR_MEDIASTORE_URL_HERE'
+		src: '<YOUR_MEDIASTORE_URL_HERE>'
 	};
 }    
 ```
-
-**REMEMBER TO REPLACE THE SOURCE URI WITH YOUR MEDIASTORE EGRESS URI**
 
 ## Step 3: Subscribing to the GraphQL API backend
 In this section we will be subscribing our client to the back end GraphQL API hosted in AWS AppSync.
