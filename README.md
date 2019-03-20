@@ -21,7 +21,7 @@ Navigate to `./src/components/Video/component.js`. The `component.js` file house
 
 We will now connect the video player to our live streaming backend using the Mediastore egress URL generated in the previous step. 
 
-Find the `constructor` and replace the <YOUR_MEDIASTORE_URL_HERE> value for the `src` key variable to your Mediastore egress URL. If you lost your MediaStore egress url from the amplify livestream setup, you can run `amplify livestream get-info` from the AdminPanel folder to get the MediaStore url.
+Find the `constructor` and replace the <YOUR_MEDIASTORE_URL_HERE> value for the `src` key variable to your Mediastore egress URL. If you lost your MediaStore egress url from the amplify livestream setup, you can run `amplify video get-info` from the AdminPanel folder to get the MediaStore url.
 
 ```javascript         
 constructor(props) {
