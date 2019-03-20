@@ -280,8 +280,14 @@ Now that we have every section of the application implemented, it's time to run 
 1. From your AdminPanel, you can play along by posting a question, answering the question from the app, and then posting the answer to show you whether you got it correct.
 1. If you closed the terminal window running the admin panel no problem! Just open a new terminal window and navigate to the AdminPanel folder and run `npm start`. Your default browser should now open up the admin panel on localhost:3000!
 
-Now that you have finished implementing the basic app, if have extra time feel free to implement some extra features such as determining winners and customizing questions and answers. [Click here](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/determine_the_winners.md) to move onward or else continue to the clean up section [here](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/wrap_up_doc.md)!
+# Wrap up
 
-## Troubleshooting Notes
+Congratulations! You've successfully implemented a prototype of UnicornTrivia and secured one. billion. dollars. in seed funding. Continue to the clean up section [here](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/wrap_up_doc.md)!
 
-1) Refresh your browser window manually or re-run `npm start`.
+# Extra Credit
+
+Now that you have finished implementing the basic app, if have extra time feel free to try these extra features
+* [Determine Winners](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/determine_the_winners.md) 
+* [Add customized questions](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/customizing_questions_doc.md) 
+* [Publish your app](TBD) to the web using `amplish publish`
+
