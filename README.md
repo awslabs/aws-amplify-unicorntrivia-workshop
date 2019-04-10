@@ -37,19 +37,17 @@ In this section we will be subscribing our client to the back end GraphQL API ho
 
 1. Now you need to initialize our client as an Amplify project. Run `amplify init` in your client folder’s root directory and follow the prompts as shown below.
     ![Amplify Configure Codegen](.images/Amplify_init_web.png)
-
-1. Next you will need to run `amplify add codegen --apiId <insert app id>`.  This will generate code for your app unique to the project. Follow the prompts below.
-    ![Amplify Configure Codegen](.images/AmplifyCodegenConfig2.png)
-
-    1. If you forgot to save your apiID from the previous steps, you can always find it in the AWS AppSync console. To do so, navigate to the AppSync dashboard from within your AWS account and click on the name of the API you previously created.
+    
+1. Lets go get your apiID from the previous steps, you can always find it in the AWS AppSync console. To do so, navigate to the [AppSync dashboard](https://console.aws.amazon.com/appsync/home) from within your AWS account and click on the name of the API you previously created.
         ![AppSyncConsole](.images/AppsyncConsole.png)
 
-    1. In the "Integrate with your app" section, you should see a command for how to add CodeGen to your existing project, copy and paste this command into the terminal.
+1. In the "Integrate with your app" section, you should see a command for how to add CodeGen to your existing project, copy and paste this command into the terminal.
         ![getAPIid](.images/getAPIID.png)
 
- 1. When Codegen finishes you should have a `Graphql` folder and a `aws-exports.json` file in your directory.
-    
+1. This will generate code for your app unique to the project. Follow the prompts below.
+    ![Amplify Configure Codegen](.images/AmplifyCodegenConfig2.png)
 
+1. When Codegen finishes you should have a `Graphql` folder and a `aws-exports.json` file in your directory.
 
 1. Navigate to the following file and open it in a text editor `./src/components/Game/component.js`
 1. Now we are ready to implement our graphql subscriptions. We will be creating two listeners, one listening for new questions and one listening for updated questions.
