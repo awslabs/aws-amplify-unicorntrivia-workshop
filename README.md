@@ -205,7 +205,7 @@ Now that our stream is playing and our subscriptions are set up. The last thing 
 
 ### Step Five: Recording answers
 
-1. In the `./src/components/App/Game/component.js` file we need to now perfom a mutation to add an user to our database.
+1. In the `./src/components/Game/component.js` file we need to now perfom a mutation to add an user to our database.
 1. Add this code to the `setupClient` function.
 	```javascript
 	API.graphql(
