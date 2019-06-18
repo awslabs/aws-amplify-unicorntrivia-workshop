@@ -9,7 +9,7 @@
     "react-dom": "^16.5.0",
     "react-json-table": "^0.1.1",
     "react-popup": "^0.9.3",
-    "react-scripts": "1.1.5",
+    "react-scripts": "3.0.1",
     "ts-react-json-table": "^0.1.1"
   },
   "scripts": {
@@ -19,5 +19,17 @@
     "eject": "react-scripts eject"
   },
   "author": "wizage",
-  "license": "Apache 2.0"
+  "license": "Apache 2.0",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
