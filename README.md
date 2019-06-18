@@ -253,7 +253,7 @@ This code is very similiar to what we did in our AdminPanel code. We just create
     ![Appsync Resolver](.images/Appsync_Resolvers.png)
 1. You are now presented with a Request Mapping Template and a Response Mapping Template.
     1. We are going to change the Request Mapping Templateto do the appending of the array.
-    1. Navigate/search for `#set( $expression = "SET" )` and look for this line (should be near line 42):
+    1. Navigate/search for `#set( $expression = "SET" )` and look for this line (should be near line 78):
         ```vtl
         #set( $expression = "$expression $entry.key = $entry.value" )
         ```
