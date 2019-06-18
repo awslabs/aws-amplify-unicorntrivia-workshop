@@ -78,15 +78,6 @@ We will also be using the [AWS Amplify](https://aws-amplify.github.io/) library 
     ```
 1. Run `npm start` and observe we are now pushing questions by opening the javascript debug console in your browser and clicking Post Question or Post Answer which is how we'll send trivia to our end-users.
 
-1. To view subscriptions you can add this code block beneath the import and Amplify.configure(aws_exports) statements.
-    ```javascript
-    const subscription = API.graphql(
-        graphqlOperation(onCreateQuestion)
-    ).subscribe({
-        next: (eventData) => console.log('Subscribe:', eventData)
-    });
-    ```
-
 Now that we have configured our back end, and can collect and tally answers from our trivia participants, let's move on to configuring the front end in the client. [Click here](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/client_doc.md) and then select one of the three client options to continue!
 
 
