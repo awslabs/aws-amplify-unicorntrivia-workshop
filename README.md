@@ -63,7 +63,8 @@ In this section we will be subscribing our client to the back end GraphQL API ho
 				answerAvailable: false,
 				questionAvailable: true,
 				modalVisible: true,
-				buttonsDisabled: false
+				buttonsDisabled: false,
+				selectedAnswerButton: null
 			});
 		}
 	})
@@ -99,16 +100,19 @@ Now that our stream is playing and our subscriptions are set up. The last thing 
 1. The first step is to create the view for when a new question is pushed. Paste the following code into the `question` function.
 
 	```javascript
+	let questionId = this.state.question.onCreateQuestion.id;
 	if(this.state.questionAvailable){
 		setTimeout((() => {
 			if(this.state.answerChosen == null){
 				this.answerChosen(-1);
 			}
-			this.setState({
-				modalVisible: false,
-				questionAvailable: false,
-				buttonsDisabled: true,
-				selectedAnswerButton: null
+			if (this.state.question.onCreateQuestion.id == questionId) {
+				this.setState({
+					modalVisible: false,
+					questionAvailable: false,
+					buttonsDisabled: true,
+					selectedAnswerButton: null
+				});
 			});
 		}).bind(this), 10000);
 		return(
