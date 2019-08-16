@@ -35,6 +35,7 @@ We will also be using the [AWS Amplify](https://aws-amplify.github.io/) library 
        }
        ```
     1. Save the file you just edited using your text editor.
+    1. **Note:** If your CLI is hanging try to quit the text editor. This is a known issue in the Amplify CLI found [here](https://github.com/aws-amplify/amplify-cli/issues/429)
 1. Now run `amplify push` to create the backend resources.
     ![AmplifyPushAPI](../.images/AmplifyPushAPI.png)
         The models you defined above create the following on the backend:
