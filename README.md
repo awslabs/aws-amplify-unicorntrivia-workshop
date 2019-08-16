@@ -291,5 +291,5 @@ Congratulations! You've successfully implemented a prototype of UnicornTrivia an
 Now that you have finished implementing the basic app, if have extra time feel free to try these extra features
 * [Determine Winners](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/determine_the_winners.md) 
 * [Add customized questions](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/customizing_questions_doc.md) 
-* [Publish your app](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/publish_your_app.md) to the web using `amplish publish`
+* [Publish your app](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/blob/master/documentation/publish_your_app.md) to the web using `amplify publish`
 
