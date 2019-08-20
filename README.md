@@ -17,7 +17,7 @@ This workshop is split into three sections outlined below. You will need to buil
 You just started at UnicornTrivia and they hooked you up with a brand new laptop - _sweeeet!_ Now let's configure your development environment. 
 
 1. Download the UnicornTrivia workshop zip [here](https://github.com/awslabs/aws-amplify-unicorntrivia-workshop/archive/master.zip) and unzip it
-1. Download and install Node and Node Package Manager (NPM) if you don't already have it from [nodejs.org](https://nodejs.org/en/download/)
+1. Download and install Node and Node Package Manager (NPM) if you don't already have it from [nodejs.org](https://nodejs.org/en/download/). Select LTS for the node version.
 1. Install AWS Amplify CLI using this command `npm install -g @aws-amplify/cli`
 1. Install a custom AWS Amplify CLI livestream plugin by running `npm install amplify-category-video -g`
 1. Download and install Open Broadcaster Software (OBS) from [obsproject.com](https://obsproject.com/download)
