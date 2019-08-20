@@ -11,32 +11,33 @@ Now you need to deploy MediaLive and MediaStore. Sure, you could use the AWS Con
 
 1. First, open a terminal and navigate to the AdminPanel directory inside the unzipped project files.
 **Please make sure the left hand side says AdminPanel. If it does not please use `cd AdminPanel`. If it doesn't say AdminPanel please raise your hand!**
+1. If you are running this event at AWS with Event Engine please follow these additional steps:
+    <details>
+        <summary>Click here to expand</summary>
+
+    1. Obtain your hash from the event lead and visit https://dashboard.eventengine.run/login
+    1. Login in using your hash and click on the use console button
+    1. A popover will appear with your AWS console access fedaration link and AWS CLI profile links
+    1. Open up your AWS profile folder on your computer ( `~/.aws/` for Mac and Linux and `C:\Users\USERNAME \.aws\` for windows)
+    1. If you don't have a AWS profile folder you need to create it and add in two files. One file called `credentials` and `config`.
+    1. Edit your `credentials` file by adding in a new profile like so (copying the values from the popover in event engine). Please note that the creditials file is all lowercase (in Event Engine it is uppercase).
+        ```
+        [ee]
+        aws_access_key_id = XXXXXXXXXXXXXXXX
+        aws_secret_access_key = XXXXXXXXXXXXXXXXXXXXXXXXX
+        aws_session_token = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+        ```
+    1. Edit your `config` file by adding default values (changing your region to the assigned region of your event)
+        ```
+        [ee]
+        region = us-west-2
+        output = json
+        ```
+    1. When running `amplify init` choose the newly created profile called `ee` (**Note:** please don't select default)
+    </details>
 1. Run `amplify init`. This command creates new AWS backend resources (in this case a single S3 bucket to host your cloudformation templates) and pull the AWS service configurations into the app!
 1. Follow the prompts as shown in the below Image. Remember, even if you are implementing the ios or android version of the application, you **MUST** choose javascript here since the admin panel is a web app that makes calls to the graphql backend and is seperate from the client.
-    1. If you are running this event at AWS with Event Engine please follow these additional steps:
-        <details>
-            <summary>Event Engine Walkthrough</summary>
-    
-        1. Obtain your hash from the event lead and visit https://dashboard.eventengine.run/login
-        1. Login in using your hash and click on the use console button
-        1. A popover will appear with your AWS console access fedaration link and AWS CLI profile links
-        1. Open up your AWS profile folder on your computer ( `~/.aws/` for Mac and Linux and `C:\Users\USERNAME \.aws\` for windows)
-        1. Edit your `credentials` file by adding in a new profile like so (copying the values from the popover in event engine)
-            ```
-            [ee]
-            aws_access_key_id = XXXXXXXXXXXXXXXX
-            aws_secret_access_key = XXXXXXXXXXXXXXXXXXXXXXXXX
-            aws_session_token = XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            ```
-        1. Edit your `config` file by adding default values (changing your region to the assigned region of your event)
-            ```
-            [ee]
-            region = us-west-2
-            output = json
-            ```
-        1. When running `amplify init` choose the newly created profile called `ee`
-        </details>
-    1. If you do not have the AWS CLI installed and configured, amplify will direct you to create a default profile. 
+    1. **PLEASE NOTE: PLEASE DOUBLE CHECK THE PROFILE YOU ARE USING. ONCE YOU CHOOSE ONE YOU CAN'T GO BACK UNLESS YOU DELETE EVERYTHING IN THE CLOUD**
     1. Note that because of the services leveraged, your AWS profile **MUST USE** us-west-2, us-east-1, eu-west-1, eu-central-1, ap-northeast-1, or ap-southeast-2.
     ![init](../.images/amplify_init.png)
 1. Now, add the amplify video module to the project using `amplify video add`
