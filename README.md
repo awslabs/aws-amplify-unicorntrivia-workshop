@@ -113,7 +113,7 @@ Now that our stream is playing and our subscriptions are set up. The last thing 
 					buttonsDisabled: true,
 					selectedAnswerButton: null
 				});
-			});
+			}
 		}).bind(this), 10000);
 		return(
 			<div className="question-container">
