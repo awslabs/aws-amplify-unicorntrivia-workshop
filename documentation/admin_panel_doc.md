@@ -9,7 +9,7 @@ We will also be using the [AWS Amplify](https://aws-amplify.github.io/) library 
 1. Now to start the local deployment of the AdminPanel run the command `npm start`
     1. A tab should now automatically open in your default browser to `http://localhost:3000/`. You have now successfully deployed the administrator panel for UnicornTrivia!
     1. When you issue the command `npm start` from the root directory of a React project, NodeJS will look for a scripts object in your package.json file. If found, it will look for a script with the key start and run the command specified as its value. You can view which scripts will be run by taking a look into package.json and taking a look at the "scripts" object.
-1. Now that you have the AdminPanel installed and running now it it is time to add in your API. Just like before when we setup the live stream you can use Amplify to setup the backend for the AdminPanel. Run `amplify api add` and use these values
+1. Now that you have the AdminPanel installed and running now it it is time to add in your API. Just like before when we setup the live stream you can use Amplify to setup the backend for the AdminPanel. Run `amplify add api` and use these values
     ![AmplifyAPIAdd](../.images/AmplifyAPIAdd.png)
     1. This will open your default editor with a default GraphQL model:
         ```graphql
