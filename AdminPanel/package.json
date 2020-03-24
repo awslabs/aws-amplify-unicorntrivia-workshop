@@ -10,7 +10,7 @@
     "react-json-table": "^0.1.1",
     "react-popup": "^0.9.3",
     "react-scripts": "1.1.5",
-    "ts-react-json-table": "^0.1.1"
+    "ts-react-json-table": "^0.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
