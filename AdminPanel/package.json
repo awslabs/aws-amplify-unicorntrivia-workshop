@@ -9,7 +9,7 @@
     "react-dom": "^16.13.0",
     "react-json-table": "^0.1.1",
     "react-popup": "^0.10.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "3.4.2",
     "ts-react-json-table": "^0.1.2"
   },
   "scripts": {
